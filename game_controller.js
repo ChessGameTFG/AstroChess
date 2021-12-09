@@ -12,8 +12,8 @@ import Player from "./player.js";
 //this class will control all the logic and the process of the game
 export default class GameController {
     constructor() {
-            this.WIDTH = window.innerWidth * 0.8;
-            this.HEIGHT = window.innerWidth * 0.8;
+            this.WIDTH = window.innerWidth * 0.6;
+            this.HEIGHT = window.innerWidth * 0.6;
             //this variable is used to take control over the previous cell and the pieces inside
             this._previousCell = null;
             // storage the selected cells here
