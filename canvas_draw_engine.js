@@ -53,7 +53,7 @@ export default class CanvasDrawEngine {
 
                 const piece = cell.piece;
                 if (piece) {
-                    const pieceSize = window.innerWidth * 0.08;
+                    const pieceSize = window.innerWidth * 0.04;
                     this.context.fillStyle = piece.color;
                     this.context.textBaseline = "middle";
                     this.context.textAlign = "center";
